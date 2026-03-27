@@ -183,7 +183,7 @@ export default function AuthScreen() {
             </div>
           )}
           {notice && (
-            <div className="rounded-md border-l-3 border-emerald-700 bg-emerald-500/15 px-3 py-2 text-sm text-emerald-900">
+            <div className="rounded-md border-l-3 border-emerald-600 bg-emerald-100 px-3 py-2 text-sm text-emerald-700">
               {notice}
             </div>
           )}

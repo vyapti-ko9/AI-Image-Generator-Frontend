@@ -155,7 +155,7 @@ export default function App() {
               <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-black text-xs font-semibold ring-2 ring-white/15">
                 {userInitial}
               </span>
-              <span className="max-w-[160px] text-black truncate text-sm font-medium" title={`${user.name} (${user.email})`}>
+              <span className="max-w-40 text-black truncate text-sm font-medium" title={`${user.name} (${user.email})`}>
                 {user.name}
               </span>
               <svg className="h-4 w-4 text-black opacity-70 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -439,7 +439,7 @@ export default function App() {
                     </svg>
                   </div>
                   <p className="text-sm font-medium text-white/90">No images yet</p>
-                  <p className="mt-1 max-w-[240px] text-xs text-white/55">
+                  <p className="mt-1 max-w-60 text-xs text-white/55">
                     Generate something — it will show up here automatically.
                   </p>
                 </div>
