@@ -65,7 +65,7 @@ export default function AuthScreen() {
         <h1 className="text-2xl font-semibold text-glow text-transparent bg-clip-text from-blue-200 via-cyan-200 to-purple-200">
           AI Image Generator
         </h1>
-        <p className="text-sm text-black/80 mt-1 mb-6">Sign in or create an account to continue.</p>
+        <p className="text-sm text-black/90 mt-1 mb-6">Sign in or create an account to continue.</p>
 
         <div className="flex gap-2 rounded-xl bg-black/25 p-1 border border-white/10">
           <button

@@ -140,7 +140,7 @@ export default function App() {
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-glow text-transparent bg-clip-text from-blue-200 via-cyan-200 to-purple-200">
               AI Image Generator
             </h1>
-            <p className="text-sm md:text-base text-black/80 mt-2 max-w-2xl">
+            <p className="text-sm md:text-base text-black/90 mt-2 max-w-2xl">
               Describe what you want and generate an image in seconds.
             </p>
           </div>
@@ -422,8 +422,8 @@ export default function App() {
                   ))}
                 </div>
               ) : (
-                <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-black/15 bg-black/25 px-6 py-16 text-center">
-                  <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-white/5 ring-1 ring-white/10">
+                <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-black/20 bg-black/30 px-6 py-16 text-center">
+                  <div className="mb-3 flex h-14 w-14 items-center justify-center rounded-2xl bg-black/5 ring-1 ring-black/10">
                     <svg
                       className="h-7 w-7 text-black/40"
                       fill="none"
